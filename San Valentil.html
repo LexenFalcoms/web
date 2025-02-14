@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feliz San Valentín, Yenifer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>¡Feliz San Valentín, <span class="name">Yenifer</span>!</h1>
+        <div class="heart"></div>
+      </div>
+      <div class="message">
+        <p>
+          Que este día esté lleno de amor, sonrisas y momentos especiales.
+        </p>
+      </div>
+
+      <!-- Botón para abrir la carta, pide contraseña -->
+      <button class="open-password-form-btn">
+        Leer Carta de San Valentín 💌
+      </button>
+
+      <!-- Formulario de contraseña (inicialmente oculto) -->
+      <div
+        class="password-container"
+        id="password-container"
+        style="display: none"
+      >
+        <input
+          type="password"
+          id="password-input"
+          placeholder="Introduce la contraseña"
+        />
+        <button id="submit-password">Ver Carta</button>
+        <p id="error-message" style="color: red; display: none">
+          Contraseña incorrecta. Intenta de nuevo.
+        </p>
+      </div>
+
+      <!-- Modal para la carta de San Valentín (inicialmente oculto) -->
+      <div class="modal" id="modal" style="display: none">
+        <div class="modal-content">
+          <span class="close-btn" id="close-btn">&times;</span>
+          <h2>💌 Carta de San Valentín para Yenifer 💌</h2>
+          <p>Mi amor ❤️,</p>
+          <p>
+            💌 Para Yenifer, en nuestro San Valentín 💌 
+            <p>📅 20-02-2018 📅</p>
+          </p>  
+          <p>
+            🌹✨ Mi amor, mi vida, mi todo... ✨🌹
+            
+            Hoy es un día especial, un día que me llena de recuerdos, de momentos inolvidables, de sonrisas compartidas 😊, de abrazos que me hacían sentir en casa 🤗, de besos que llevaban mi alma al cielo 💋💖. San Valentín siempre será nuestro día, un día donde el amor que vivimos sigue latiendo en mi corazón 💘🔥.
+            
+            Desde el primer día en que te vi, mi mundo cambió 🌍✨. Algo en tu mirada 👀, en tu sonrisa tan única 😊, en tu forma de hablar y de ver la vida 💫, me hizo sentir que había encontrado algo más que una simple historia de amor. Eras mi destino, mi persona especial, mi sueño hecho realidad. 💖🌹 Cada momento a tu lado se convirtió en un tesoro que guardo en lo más profundo de mi alma. 🏆💞
+            
+            Aprendí tanto de ti... Aprendí que el amor no se trata solo de palabras bonitas 💬, sino de gestos, de detalles, de miradas cómplices, de días en los que no hacía falta decir nada para entendernos 💕🤍. Aprendí que el amor verdadero es paciencia, es apoyo, es saber estar ahí cuando más se necesita. 🥰 Desde las risas hasta las lágrimas, desde los días de alegría hasta los momentos más difíciles, siempre fuimos uno solo. 💑✨
+            
+            Y de todo lo hermoso que vivimos juntos, lo más valioso, lo más puro, lo más grande… es nuestra princesa, Leyla Alexandra. 👧👼💖 Ella es la prueba más hermosa de lo que fuimos, de lo que construimos, del amor inmenso que alguna vez compartimos. 🍼💕 Cada vez que la veo, siento que una parte de ti siempre estará conmigo, en su sonrisa, en sus ojos, en su forma de ser. 🌸💫 Es el lazo que nos unirá por siempre, más allá del tiempo y la distancia. 🌍❤️
+            
+            Hoy, aunque la vida nos haya llevado por caminos diferentes, aunque no podamos estar juntos por la distancia como antes, quiero que sepas algo… Siempre serás un capítulo hermoso en mi vida, una historia que nunca podré olvidar. 📖💞 Porque hay amores que no terminan, solo se transforman, y el nuestro será siempre un recuerdo lleno de luz en mi corazón. 💡❤️
+            
+            Feliz San Valentín, mi eterno amor. 💌💘🌹
+          </p>
+          <p>
+            Con todo mi amor, <br />
+            Luis 💌💕
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
